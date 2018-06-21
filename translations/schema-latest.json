@@ -1,0 +1,487 @@
+{
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "day": {
+      "$id": "/properties/day",
+      "type": "string",
+      "title": "Day",
+      "default": ""
+    },
+    "days": {
+      "$id": "/properties/days",
+      "type": "string",
+      "title": "Days",
+      "default": ""
+    },
+    "hours": {
+      "$id": "/properties/hours",
+      "type": "string",
+      "title": "Hours",
+      "default": ""
+    },
+    "minutes": {
+      "$id": "/properties/minutes",
+      "type": "string",
+      "title": "Minutes",
+      "default": ""
+    },
+    "seconds": {
+      "$id": "/properties/seconds",
+      "type": "string",
+      "title": "Seconds",
+      "default": ""
+    },
+    "header_tagline": {
+      "$id": "/properties/header_tagline",
+      "type": "string",
+      "title": "Header_tagline",
+      "default": ""
+    },
+    "share_twitter": {
+      "$id": "/properties/share_twitter",
+      "type": "string",
+      "title": "Share_twitter",
+      "default": ""
+    },
+    "article": {
+      "$id": "/properties/article",
+      "type": "string",
+      "title": "Article",
+      "default": ""
+    },
+    "article_title": {
+      "$id": "/properties/article_title",
+      "type": "string",
+      "title": "Article_title",
+      "default": ""
+    },
+    "article_content": {
+      "$id": "/properties/article_content",
+      "type": "string",
+      "title": "Article_content",
+      "default": ""
+    },
+    "article_reddit_title": {
+      "$id": "/properties/article_reddit_title",
+      "type": "string",
+      "title": "Article_reddit_title",
+      "default": ""
+    },
+    "article_reddit_title_highlight": {
+      "$id": "/properties/article_reddit_title_highlight",
+      "type": "string",
+      "title": "Article_reddit_title_highlight",
+      "default": ""
+    },
+    "article_reddit_content": {
+      "$id": "/properties/article_reddit_content",
+      "type": "string",
+      "title": "Article_reddit_content",
+      "default": ""
+    },
+    "article_link_title": {
+      "$id": "/properties/article_link_title",
+      "type": "string",
+      "title": "Article_link_title",
+      "default": ""
+    },
+    "article_link_title_highlight": {
+      "$id": "/properties/article_link_title_highlight",
+      "type": "string",
+      "title": "Article_link_title_highlight",
+      "default": ""
+    },
+    "article_link_content": {
+      "$id": "/properties/article_link_content",
+      "type": "string",
+      "title": "Article_link_content",
+      "default": ""
+    },
+    "article_pepe_title": {
+      "$id": "/properties/article_pepe_title",
+      "type": "string",
+      "title": "Article_pepe_title",
+      "default": ""
+    },
+    "article_pepe_title_highlight": {
+      "$id": "/properties/article_pepe_title_highlight",
+      "type": "string",
+      "title": "Article_pepe_title_highlight",
+      "default": ""
+    },
+    "article_pepe_content": {
+      "$id": "/properties/article_pepe_content",
+      "type": "string",
+      "title": "Article_pepe_content",
+      "default": ""
+    },
+    "twitter_title": {
+      "$id": "/properties/twitter_title",
+      "type": "string",
+      "title": "Twitter_title",
+      "default": ""
+    },
+    "twitter_description": {
+      "$id": "/properties/twitter_description",
+      "type": "string",
+      "title": "Twitter_description",
+      "default": ""
+    },
+    "countdown_title": {
+      "$id": "/properties/countdown_title",
+      "type": "string",
+      "title": "Countdown_title",
+      "default": ""
+    },
+    "countdown_description1": {
+      "$id": "/properties/countdown_description1",
+      "type": "string",
+      "title": "Countdown_description1",
+      "default": ""
+    },
+    "countdown_description2": {
+      "$id": "/properties/countdown_description2",
+      "type": "string",
+      "title": "Countdown_description2",
+      "default": ""
+    },
+    "countdown_until": {
+      "$id": "/properties/countdown_until",
+      "type": "string",
+      "title": "Countdown_until",
+      "default": ""
+    },
+    "countdown_expired": {
+      "$id": "/properties/countdown_expired",
+      "type": "string",
+      "title": "Countdown_expired",
+      "default": ""
+    },
+    "livestream_link": {
+      "$id": "/properties/livestream_link",
+      "type": "string",
+      "title": "Livestream_link",
+      "default": ""
+    },
+    "what_do_title": {
+      "$id": "/properties/what_do_title",
+      "type": "string",
+      "title": "What_do_title",
+      "default": ""
+    },
+    "what_do_share": {
+      "$id": "/properties/what_do_share",
+      "type": "string",
+      "title": "What_do_share",
+      "default": ""
+    },
+    "what_do_share_content": {
+      "$id": "/properties/what_do_share_content",
+      "type": "string",
+      "title": "What_do_share_content",
+      "default": ""
+    },
+    "what_do_need_content": {
+      "$id": "/properties/what_do_need_content",
+      "type": "string",
+      "title": "What_do_need_content",
+      "default": ""
+    },
+    "what_do_gallery": {
+      "$id": "/properties/what_do_gallery",
+      "type": "string",
+      "title": "What_do_gallery",
+      "default": ""
+    },
+    "what_do_stuff": {
+      "$id": "/properties/what_do_stuff",
+      "type": "string",
+      "title": "What_do_stuff",
+      "default": ""
+    },
+    "what_do_mail": {
+      "$id": "/properties/what_do_mail",
+      "type": "string",
+      "title": "What_do_mail",
+      "default": ""
+    },
+    "what_do_mail_content": {
+      "$id": "/properties/what_do_mail_content",
+      "type": "string",
+      "title": "What_do_mail_content",
+      "default": ""
+    },
+    "what_do_call": {
+      "$id": "/properties/what_do_call",
+      "type": "string",
+      "title": "What_do_call",
+      "default": ""
+    },
+    "what_do_call_content": {
+      "$id": "/properties/what_do_call_content",
+      "type": "string",
+      "title": "What_do_call_content",
+      "default": ""
+    },
+    "near_demos": {
+      "$id": "/properties/near_demos",
+      "type": "string",
+      "title": "Near_demos",
+      "default": ""
+    },
+    "near_demos_content1": {
+      "$id": "/properties/near_demos_content1",
+      "type": "string",
+      "title": "Near_demos_content1",
+      "default": ""
+    },
+    "near_demos_content2": {
+      "$id": "/properties/near_demos_content2",
+      "type": "string",
+      "title": "Near_demos_content2",
+      "default": ""
+    },
+    "near_demos_content3": {
+      "$id": "/properties/near_demos_content3",
+      "type": "string",
+      "title": "Near_demos_content3",
+      "default": ""
+    },
+    "near_demos_content4": {
+      "$id": "/properties/near_demos_content4",
+      "type": "string",
+      "title": "Near_demos_content4",
+      "default": ""
+    },
+    "graphic_box_title1": {
+      "$id": "/properties/graphic_box_title1",
+      "type": "string",
+      "title": "Graphic_box_title1",
+      "default": ""
+    },
+    "graphic_box_content1": {
+      "$id": "/properties/graphic_box_content1",
+      "type": "string",
+      "title": "Graphic_box_content1",
+      "default": ""
+    },
+    "graphic_box_title2": {
+      "$id": "/properties/graphic_box_title2",
+      "type": "string",
+      "title": "Graphic_box_title2",
+      "default": ""
+    },
+    "graphic_box_content2": {
+      "$id": "/properties/graphic_box_content2",
+      "type": "string",
+      "title": "Graphic_box_content2",
+      "default": ""
+    },
+    "image_split_title": {
+      "$id": "/properties/image_split_title",
+      "type": "string",
+      "title": "Image_split_title",
+      "default": ""
+    },
+    "image_split_content": {
+      "$id": "/properties/image_split_content",
+      "type": "string",
+      "title": "Image_split_content",
+      "default": ""
+    },
+    "petition_title": {
+      "$id": "/properties/petition_title",
+      "type": "string",
+      "title": "Petition_title",
+      "default": ""
+    },
+    "petition_content1": {
+      "$id": "/properties/petition_content1",
+      "type": "string",
+      "title": "Petition_content1",
+      "default": ""
+    },
+    "petition_content2": {
+      "$id": "/properties/petition_content2",
+      "type": "string",
+      "title": "Petition_content2",
+      "default": ""
+    },
+    "petition_button": {
+      "$id": "/properties/petition_button",
+      "type": "string",
+      "title": "Petition_button",
+      "default": ""
+    },
+    "sign_petition": {
+      "$id": "/properties/sign_petition",
+      "type": "string",
+      "title": "Sign_petition",
+      "default": ""
+    },
+    "gallery_title": {
+      "$id": "/properties/gallery_title",
+      "type": "string",
+      "title": "Gallery_title",
+      "default": ""
+    },
+    "gallery_download_pdf": {
+      "$id": "/properties/gallery_download_pdf",
+      "type": "string",
+      "title": "Gallery_download_pdf",
+      "default": ""
+    },
+    "about_title": {
+      "$id": "/properties/about_title",
+      "type": "string",
+      "title": "About_title",
+      "default": ""
+    },
+    "about_sub_title1": {
+      "$id": "/properties/about_sub_title1",
+      "type": "string",
+      "title": "About_sub_title1",
+      "default": ""
+    },
+    "about_sub_text1": {
+      "$id": "/properties/about_sub_text1",
+      "type": "string",
+      "title": "About_sub_text1",
+      "default": ""
+    },
+    "about_sub_title2": {
+      "$id": "/properties/about_sub_title2",
+      "type": "string",
+      "title": "About_sub_title2",
+      "default": ""
+    },
+    "about_sub_text2_1": {
+      "$id": "/properties/about_sub_text2_1",
+      "type": "string",
+      "title": "About_sub_text2_1",
+      "default": ""
+    },
+    "about_sub_text2_2": {
+      "$id": "/properties/about_sub_text2_2",
+      "type": "string",
+      "title": "About_sub_text2_2",
+      "default": ""
+    },
+    "about_sub_title3": {
+      "$id": "/properties/about_sub_title3",
+      "type": "string",
+      "title": "About_sub_title3",
+      "default": ""
+    },
+    "about_sub_text3_1": {
+      "$id": "/properties/about_sub_text3_1",
+      "type": "string",
+      "title": "About_sub_text3_1",
+      "default": ""
+    },
+    "about_sub_text3_2": {
+      "$id": "/properties/about_sub_text3_2",
+      "type": "string",
+      "title": "About_sub_text3_2",
+      "default": ""
+    },
+    "about_sub_title4": {
+      "$id": "/properties/about_sub_title4",
+      "type": "string",
+      "title": "About_sub_title4",
+      "default": ""
+    },
+    "about_sub_text4_1": {
+      "$id": "/properties/about_sub_text4_1",
+      "type": "string",
+      "title": "About_sub_text4_1",
+      "default": ""
+    },
+    "about_sub_text4_2": {
+      "$id": "/properties/about_sub_text4_2",
+      "type": "string",
+      "title": "About_sub_text4_2",
+      "default": ""
+    },
+    "about_sub_title5": {
+      "$id": "/properties/about_sub_title5",
+      "type": "string",
+      "title": "About_sub_title5",
+      "default": ""
+    },
+    "about_sub_text5_1": {
+      "$id": "/properties/about_sub_text5_1",
+      "type": "string",
+      "title": "About_sub_text5_1",
+      "default": ""
+    },
+    "about_sub_text5_2": {
+      "$id": "/properties/about_sub_text5_2",
+      "type": "string",
+      "title": "About_sub_text5_2",
+      "default": ""
+    },
+    "about_sub_text5_strong": {
+      "$id": "/properties/about_sub_text5_strong",
+      "type": "string",
+      "title": "About_sub_text5_strong",
+      "default": ""
+    },
+    "mep_title": {
+      "$id": "/properties/mep_title",
+      "type": "string",
+      "title": "Mep_title",
+      "default": ""
+    },
+    "mep_heading": {
+      "$id": "/properties/mep_heading",
+      "type": "string",
+      "title": "Mep_heading",
+      "default": ""
+    },
+    "mep_text_1": {
+      "$id": "/properties/mep_text_1",
+      "type": "string",
+      "title": "Mep_text_1",
+      "default": ""
+    },
+    "mep_text_2": {
+      "$id": "/properties/mep_text_2",
+      "type": "string",
+      "title": "Mep_text_2",
+      "default": ""
+    },
+    "select_country": {
+      "$id": "/properties/select_country",
+      "type": "string",
+      "title": "Select_country",
+      "default": ""
+    },
+    "about_link": {
+      "$id": "/properties/about_link",
+      "type": "string",
+      "title": "About_link",
+      "default": ""
+    },
+    "imprint_link": {
+      "$id": "/properties/imprint_link",
+      "type": "string",
+      "title": "Imprint_link",
+      "default": ""
+    },
+    "privacy_link": {
+      "$id": "/properties/privacy_link",
+      "type": "string",
+      "title": "Privacy_link",
+      "default": ""
+    },
+    "footer_notice": {
+      "$id": "/properties/footer_notice",
+      "type": "string",
+      "title": "Footer_notice",
+      "default": ""
+    }
+  }
+}

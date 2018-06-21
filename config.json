@@ -1,0 +1,18 @@
+{
+  "firstLoad": true,
+  "currentLanguage": "en",
+  "contentURL": "translations/",
+  "languages": [
+    {"id": "en", "name": "English"},
+    {"id": "de", "name": "German"},
+    {"id": "fr", "name": "French"},
+    {"id": "es", "name": "Spanish"},
+    {"id": "it", "name": "Italian"},
+    {"id": "nl", "name": "Dutch"},
+    {"id": "pl", "name": "Polish"},
+    {"id": "se", "name": "Swedish"},
+    {"id": "fi", "name": "Finnish"},
+    {"id": "dk", "name": "Danish"},
+    {"id": "cn", "name": "中文"}
+  ]
+}

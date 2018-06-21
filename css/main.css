@@ -1,0 +1,25 @@
+li:hover {
+  cursor: pointer;
+}
+#menu {
+  list-style-type: none;
+  padding: 0;
+}
+#menu li {
+  display: inline-block;
+}
+.tooltip-inner {
+    width: 100px;
+}
+.badge {
+  margin-left: 3px;
+}
+.modal-header {
+  background-color: grey;
+}
+#saveFile {
+  margin-left: 0px;
+}
+#valid_indicator {
+  font-size: 15px;
+}

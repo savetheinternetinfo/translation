@@ -1,0 +1,12 @@
+{
+  "name": "translation",
+  "version": "1.0.0",
+  "description": "UI for translators to generate content for our page",
+  "main": "index.js",
+  "repository": "https://github.com/savetheinternetinfo/translation.git",
+  "author": "aytic <me@lynx.pub>",
+  "license": "MIT",
+  "dependencies": {
+    "flag-icon-css": "^3.0.0"
+  }
+}
