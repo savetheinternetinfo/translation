@@ -1,6 +1,5 @@
 {
   "type": "object",
-  "definitions": {},
   "properties": {
     "day": {
       "$id": "/properties/day",
@@ -34,12 +33,28 @@
       "$id": "/properties/article",
       "type": "string"
     },
+    "article_header": {
+      "$id": "/properties/article_header",
+      "type": "string"
+    },
     "article_title": {
       "$id": "/properties/article_title",
       "type": "string"
     },
-    "article_content": {
-      "$id": "/properties/article_content",
+    "article_content1": {
+      "$id": "/properties/article_content1",
+      "type": "string"
+    },
+    "article_content2": {
+      "$id": "/properties/article_content2",
+      "type": "string"
+    },
+    "article_content3": {
+      "$id": "/properties/article_content3",
+      "type": "string"
+    },
+    "prevented_header": {
+      "$id": "/properties/prevented_header",
       "type": "string"
     },
     "article_reddit_title": {
@@ -64,18 +79,6 @@
     },
     "article_link_content": {
       "$id": "/properties/article_link_content",
-      "type": "string"
-    },
-    "article_pepe_title": {
-      "$id": "/properties/article_pepe_title",
-      "type": "string"
-    },
-    "article_pepe_title_highlight": {
-      "$id": "/properties/article_pepe_title_highlight",
-      "type": "string"
-    },
-    "article_pepe_content": {
-      "$id": "/properties/article_pepe_content",
       "type": "string"
     },
     "twitter_title": {
@@ -110,44 +113,64 @@
       "$id": "/properties/livestream_link",
       "type": "string"
     },
+    "whatsaved_title": {
+      "$id": "/properties/whatsaved_title",
+      "type": "string"
+    },
+    "voice_header": {
+      "$id": "/properties/voice_header",
+      "type": "string"
+    },
+    "voice_content": {
+      "$id": "/properties/voice_content",
+      "type": "string"
+    },
+    "information_header": {
+      "$id": "/properties/information_header",
+      "type": "string"
+    },
+    "information_content": {
+      "$id": "/properties/information_content",
+      "type": "string"
+    },
+    "freedom_header": {
+      "$id": "/properties/freedom_header",
+      "type": "string"
+    },
+    "freedom_content": {
+      "$id": "/properties/freedom_content",
+      "type": "string"
+    },
+    "continue_title": {
+      "$id": "/properties/continue_title",
+      "type": "string"
+    },
+    "continue_content": {
+      "$id": "/properties/continue_content",
+      "type": "string"
+    },
     "what_do_title": {
       "$id": "/properties/what_do_title",
       "type": "string"
     },
-    "what_do_share": {
-      "$id": "/properties/what_do_share",
+    "what_do_content1": {
+      "$id": "/properties/what_do_content1",
       "type": "string"
     },
-    "what_do_share_content": {
-      "$id": "/properties/what_do_share_content",
+    "what_do_content2": {
+      "$id": "/properties/what_do_content2",
       "type": "string"
     },
-    "what_do_need_content": {
-      "$id": "/properties/what_do_need_content",
+    "dont_like_header": {
+      "$id": "/properties/dont_like_header",
       "type": "string"
     },
-    "what_do_gallery": {
-      "$id": "/properties/what_do_gallery",
+    "dont_like_content1": {
+      "$id": "/properties/dont_like_content1",
       "type": "string"
     },
-    "what_do_stuff": {
-      "$id": "/properties/what_do_stuff",
-      "type": "string"
-    },
-    "what_do_mail": {
-      "$id": "/properties/what_do_mail",
-      "type": "string"
-    },
-    "what_do_mail_content": {
-      "$id": "/properties/what_do_mail_content",
-      "type": "string"
-    },
-    "what_do_call": {
-      "$id": "/properties/what_do_call",
-      "type": "string"
-    },
-    "what_do_call_content": {
-      "$id": "/properties/what_do_call_content",
+    "dont_like_content2": {
+      "$id": "/properties/dont_like_content2",
       "type": "string"
     },
     "near_demos": {
@@ -192,6 +215,14 @@
     },
     "image_split_content": {
       "$id": "/properties/image_split_content",
+      "type": "string"
+    },
+    "common_success_header": {
+      "$id": "/properties/common_success_header",
+      "type": "string"
+    },
+    "common_success_content": {
+      "$id": "/properties/common_success_content",
       "type": "string"
     },
     "petition_title": {
@@ -296,6 +327,10 @@
     },
     "mep_text_1": {
       "$id": "/properties/mep_text_1",
+      "type": "string"
+    },
+    "mep_text_2": {
+      "$id": "/properties/mep_text_2",
       "type": "string"
     },
     "select_country": {
