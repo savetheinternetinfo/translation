@@ -44,7 +44,8 @@ menuOnClick = function(schemaURL, translationLanguage) {
     });
     var hash = hashSHA256(schemaData);
     selectedMenuItemHash = hash;
-    var dataURL = contentURL + '/schema-' + hash + '/' + translationLanguage + '/data-' + translationLanguage + '-latest.json';
+    console.log("Current hash: " + hash);
+    var dataURL = contentURL + '/schema-' + hash + '/data-' + translationLanguage + '-latest.json';
     loadJSON(dataURL, function(fileData) {
       editor.setValue(fileData);
       document.getElementById('editorButtons').style.display = '';

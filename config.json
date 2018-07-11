@@ -13,6 +13,7 @@
     {"id": "se", "name": "Swedish"},
     {"id": "fi", "name": "Finnish"},
     {"id": "dk", "name": "Danish"},
+    {"id": "ru", "name": "Russian"},
     {"id": "cn", "name": "中文"}
   ]
 }

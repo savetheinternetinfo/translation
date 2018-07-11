@@ -1,425 +1,942 @@
 {
   "type": "object",
+  "definitions": {},
   "properties": {
     "day": {
       "$id": "/properties/day",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "day"
+      ],
+      "minLength": 1
     },
     "days": {
       "$id": "/properties/days",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "days"
+      ],
+      "minLength": 1
     },
     "hours": {
       "$id": "/properties/hours",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "hours"
+      ],
+      "minLength": 1
     },
     "minutes": {
       "$id": "/properties/minutes",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "minutes"
+      ],
+      "minLength": 1
     },
     "seconds": {
       "$id": "/properties/seconds",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "seconds"
+      ],
+      "minLength": 1
     },
     "header_tagline": {
       "$id": "/properties/header_tagline",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The Internet is in danger and you can save it!"
+      ],
+      "minLength": 1
     },
     "share_twitter": {
       "$id": "/properties/share_twitter",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The Internet is in danger and you can save it! https://savetheinternet.info #DeleteArt13"
+      ],
+      "minLength": 1
     },
     "article": {
       "$id": "/properties/article",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Article"
+      ],
+      "minLength": 1
     },
     "article_header": {
       "$id": "/properties/article_header",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The Internet is safe - for the moment."
+      ],
+      "minLength": 1
     },
     "article_title": {
       "$id": "/properties/article_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "So what happened?"
+      ],
+      "minLength": 1
     },
     "article_content1": {
       "$id": "/properties/article_content1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "On July 5, 2018, the plenary session of the European Parliament voted on the <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52016PC0593&from=EN\" class=\"highlight\">reform of copyright in the digital internal market</a>. These two articles, as proposed, would have paved the way for comprehensive censorship of the Internet. For this reason we have created a fortunately very successful petition, which, thanks to the personal invitation of MEP Julia Reda, we were able to present to MEPs immediately before the vote, together with the at that time 736,000 signatures. The untiring efforts of our Members and the enormous number of signatures enabled us to make Members aware of the considerable risk of this reform and thus prevent it from being adopted in plenary. "
+      ],
+      "minLength": 1
     },
     "article_content2": {
       "$id": "/properties/article_content2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The reform proposal on copyright (especially Articles 11 and 13) was rejected by 318 (53%) to 278 (47%)!"
+      ],
+      "minLength": 1
     },
     "article_content3": {
       "$id": "/properties/article_content3",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "However, the threat has not yet completely disappeared! The rejection in plenary simply means that the reform proposal will have to be revised and resubmitted. We expect another vote on a revised version in September."
+      ],
+      "minLength": 1
     },
     "prevented_header": {
       "$id": "/properties/prevented_header",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "What were we able to prevent?"
+      ],
+      "minLength": 1
     },
     "article_reddit_title": {
       "$id": "/properties/article_reddit_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The dictatorship of error-prone"
+      ],
+      "minLength": 1
     },
     "article_reddit_title_highlight": {
       "$id": "/properties/article_reddit_title_highlight",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "algorithms"
+      ],
+      "minLength": 0
     },
     "article_reddit_content": {
       "$id": "/properties/article_reddit_content",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Upload filters on sites like YouTube, Facebook and Co. all have one thing in common: They never act as exactly as a human could. As a result, content is often also removed that violates copyright but is protected by citation law. This \"vulnerability\" can be used as an excuse to filter out content that does not correspond to one's own values and ideas."
+      ],
+      "minLength": 1
     },
     "article_link_title": {
       "$id": "/properties/article_link_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Paid"
+      ],
+      "minLength": 1
     },
     "article_link_title_highlight": {
       "$id": "/properties/article_link_title_highlight",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Links"
+      ],
+      "minLength": 0
     },
     "article_link_content": {
       "$id": "/properties/article_link_content",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Press publishers should be obliged to charge for all links that someone places on their content. News portals would have lost reach and readership. The resulting loss of revenue would have been offset by the additional costs incurred by a license system to be administered. For many portals and publishers this would have meant economic ruin."
+      ],
+      "minLength": 1
     },
     "twitter_title": {
       "$id": "/properties/twitter_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Hear the voices of others"
+      ],
+      "minLength": 1
     },
     "twitter_description": {
       "$id": "/properties/twitter_description",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Censorship could very soon turn the cultural norms of the web as we know them upside down. Upload locks in combination with error-prone algorithms ensure that even the posting of links will pose a massive problem in the future. This will be particularly evident on platforms such as Twitter, Facebook, 9GAG and Co. In fact, most likely all of your favorite websites. Articles 11 and 13 would ensure that links and direct quotes are blacked out or even prevented entirely from uploading."
+      ],
+      "minLength": 1
     },
     "countdown_title": {
       "$id": "/properties/countdown_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Time is running out"
+      ],
+      "minLength": 1
     },
     "countdown_description1": {
       "$id": "/properties/countdown_description1",
-      "type": "string"
-    },
-    "countdown_description2": {
-      "$id": "/properties/countdown_description2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The vote in the EU Parliament will take place in a few days! Therefore, we must <b> IMMEDIATELY </b> act to change the vote of the deputies. There is just a narrow majority of one vote in favour of the proposal in the relevant committee."
+      ],
+      "minLength": 1
     },
     "countdown_until": {
       "$id": "/properties/countdown_until",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Countdown until the Legal Committee of the European Parliament discusses Article 13"
+      ],
+      "minLength": 1
     },
     "countdown_expired": {
       "$id": "/properties/countdown_expired",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Visit the Livestream"
+      ],
+      "minLength": 1
     },
     "livestream_link": {
       "$id": "/properties/livestream_link",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "http://www.europarl.europa.eu/ep-live/de/committees/video?event=20180620-0900-COMMITTEE-JURI"
+      ],
+      "minLength": 1
     },
     "whatsaved_title": {
       "$id": "/properties/whatsaved_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "What’s been safed?"
+      ],
+      "minLength": 1
     },
     "voice_header": {
       "$id": "/properties/voice_header",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The voice of each one of us"
+      ],
+      "minLength": 1
     },
     "voice_content": {
       "$id": "/properties/voice_content",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The rejection of the proposal ensures everyone's freedom to speak out on the Internet. Freedom and neutrality have always been the cornerstones of the Internet as we know it and these pillars will remain with us for the time being. Every user retains the right to share what he likes with his friends without fear of copyright lawsuit. This will give us an Internet that we can shape ourselves without fear of government intervention. Just as it has always been in the sense of a worldwide connection of all people."
+      ],
+      "minLength": 1
     },
     "information_header": {
       "$id": "/properties/information_header",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The free and unrestricted flow of information"
+      ],
+      "minLength": 1
     },
     "information_content": {
       "$id": "/properties/information_content",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Never before has information and news been distributed around the globe as quickly as today. Everyone has the same access to all this information and messages at all times. This can work because this information is distributed from person to person - through sharing and linking on various platforms. This flow would have been severely curbed by Article 11 - with consequences both for the providers of such information and for the consumer. By rejecting the reform proposal, we were able to maintain free access to information."
+      ],
+      "minLength": 1
     },
     "freedom_header": {
       "$id": "/properties/freedom_header",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The freedom of the image"
+      ],
+      "minLength": 1
     },
     "freedom_content": {
       "$id": "/properties/freedom_content",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "A picture says more than a thousand words. This means that an image not only consists of its obvious content but also conveys a message. This message, made by humans and intended for humans, could never have been recognized, let alone understood, by an automated content recognition technology. Upload filters such as those created under Article 13 would therefore never have been able to fulfil their task."
+      ],
+      "minLength": 1
     },
     "continue_title": {
       "$id": "/properties/continue_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "What's the next move?"
+      ],
+      "minLength": 1
     },
     "continue_content": {
       "$id": "/properties/continue_content",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The rejected reform proposal must be revised and will then be submitted again. This means that Articles 11 and 13 will no longer come in this form, but it also means that they can come again in another format. MEPs will then have the opportunity to vote on the modified proposal from 10-13 September. The freedom that we have now successfully upheld must continue to be preserved and actively protected by all of us. That is why we must pay close attention to which laws we want to live with, also in the future. And we must not be afraid to raise our voices and participate in our own future."
+      ],
+      "minLength": 1
     },
     "what_do_title": {
       "$id": "/properties/what_do_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "What can you do?"
+      ],
+      "minLength": 1
     },
     "what_do_content1": {
       "$id": "/properties/what_do_content1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "We still need to send a clear signal against upload filters and the like, which is why we will not stop the petition on change.org for the time being. Especially since the next vote is not planned until September, we must not let up now."
+      ],
+      "minLength": 1
     },
     "what_do_content2": {
       "$id": "/properties/what_do_content2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The activities of the European Parliament are publicly accessible on its website: https://eur-lex.europa.eu/ On this page you will find all information about European legislation as well as PDF files of all submitted documents, proposals and similar. Take the opportunity to look at the work of the deputies and dare to say if something doesn't suit you. After all, it's also about your future!"
+      ],
+      "minLength": 1
     },
     "dont_like_header": {
       "$id": "/properties/dont_like_header",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "I don't like a proposal or article! - What to do?"
+      ],
+      "minLength": 1
     },
     "dont_like_content1": {
       "$id": "/properties/dont_like_content1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "contact your MEP!  You can contact your MEP directly to show him/her your dissatisfaction with what you don't like. Personal e-mails often have a very high effect. Because people with whom you are in direct contact are more willing to be convinced. You can find a list with e-mail addresses of the respective delegates here: [Link]"
+      ],
+      "minLength": 1
     },
     "dont_like_content2": {
       "$id": "/properties/dont_like_content2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "A tip to get the best possible effect from your complaint: Be objective and polite. With insulting words or threats you only achieve rejection, so stay pragmatic and explain your displeasure with the matter, not with the MEPs."
+      ],
+      "minLength": 1
     },
     "near_demos": {
       "$id": "/properties/near_demos",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Where are you needed?"
+      ],
+      "minLength": 1
     },
     "near_demos_content1": {
       "$id": "/properties/near_demos_content1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Are you close to one of the demonstrations on the map and want to support us? Then you have the opportunity to join us and join us in drawing attention to Article 13."
+      ],
+      "minLength": 1
     },
     "near_demos_content2": {
       "$id": "/properties/near_demos_content2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Just click the marker on the map that is nearest to you in order to get information about the exact time and location!"
+      ],
+      "minLength": 1
     },
     "near_demos_content3": {
       "$id": "/properties/near_demos_content3",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Together we are strong! We need you to save the internet as we know it."
+      ],
+      "minLength": 1
     },
     "near_demos_content4": {
       "$id": "/properties/near_demos_content4",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Only a dictatorship needs censorship!"
+      ],
+      "minLength": 1
     },
     "graphic_box_title1": {
       "$id": "/properties/graphic_box_title1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Article 13 in detail"
+      ],
+      "minLength": 1
     },
     "graphic_box_content1": {
       "$id": "/properties/graphic_box_content1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Article 13 would have demanded in actual practice that almost all Internet platforms install content recognition techniques, with the task of automatically checking uploaded content for potential copyright infringements. Freedom of expression would have been considerably restricted in this way, since the opinion would have fallen victim to deletion even before it had been expressed. Decisions about actually published content and thus its censorship would have been taken over by error-prone and hypersensitive algorithms (programmed in such a way that they \"play it safe\" and delete everything that poses a risk to the platform in case of doubt). Since the programming of these algorithms would be in the hands of a few, it could not have been ruled out that these algorithms would also have been used to sort out unpleasant opinions in advance."
+      ],
+      "minLength": 1
     },
     "graphic_box_title2": {
       "$id": "/properties/graphic_box_title2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        " Article 11 in detail"
+      ],
+      "minLength": 1
     },
     "graphic_box_content2": {
       "$id": "/properties/graphic_box_content2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The ancillary copyright would have stipulated that the future content of certain information providers is subject to a more concrete press law. The inalienability of these press rights to the respective authors would have made it inevitable that a fee-based licensing system for news would have been created. This licensing could have meant that even quoting texts could have been declared a copyright infringement. However, this would make a complex exchange of views or a more in-depth debate on the Internet almost impossible."
+      ],
+      "minLength": 1
     },
     "image_split_title": {
       "$id": "/properties/image_split_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Article 11 not only affects the internet"
+      ],
+      "minLength": 1
     },
     "image_split_content": {
       "$id": "/properties/image_split_content",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Research and progress are also suffering from Article 11. In the future, users, such as independent researchers, journalists, individuals and various companies, will be denied text and data mining. This has a slowing effect on various discoveries of public interest."
+      ],
+      "minLength": 1
     },
     "common_success_header": {
       "$id": "/properties/common_success_header",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "A mutual triumph!"
+      ],
+      "minLength": 1
     },
     "common_success_content": {
       "$id": "/properties/common_success_content",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The successful prevention of this reform could only be achieved through the work and hard work of every single member of our group and many other supporters. But not only the untiring commitment of our members but also the voice of each individual under our petition were decisive for this success. This victory is not only our victory but the victory of each individual, who has signed a sign against the censorship of the Internet. To illustrate this victory once again, you can find enough pictures of the petition in our gallery and hand it over to Parliament:"
+      ],
+      "minLength": 1
     },
     "petition_title": {
       "$id": "/properties/petition_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Censorship? Without me!"
+      ],
+      "minLength": 1
     },
     "petition_content1": {
       "$id": "/properties/petition_content1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Support us with your voice! Only together we are strong!"
+      ],
+      "minLength": 1
     },
     "petition_content2": {
       "$id": "/properties/petition_content2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "That's why we've made a petition to tackle Articles 11 and 13!"
+      ],
+      "minLength": 1
     },
     "petition_button": {
       "$id": "/properties/petition_button",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Visit the petition"
+      ],
+      "minLength": 1
     },
     "sign_petition": {
       "$id": "/properties/sign_petition",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Sign the petition"
+      ],
+      "minLength": 1
     },
     "gallery_title": {
       "$id": "/properties/gallery_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Gallery"
+      ],
+      "minLength": 1
     },
     "gallery_download_pdf": {
       "$id": "/properties/gallery_download_pdf",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Download PDF"
+      ],
+      "minLength": 1
     },
     "about_title": {
       "$id": "/properties/about_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "About"
+      ],
+      "minLength": 1
     },
     "about_sub_title1": {
       "$id": "/properties/about_sub_title1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Stop the censorship machine - save the internet!"
+      ],
+      "minLength": 1
     },
     "about_sub_text1": {
       "$id": "/properties/about_sub_text1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The internet as you know it is in danger! The European Parliament is currently planning to tighten the copyright law, which would massively restrict your freedom on the internet."
+      ],
+      "minLength": 1
     },
     "about_sub_title2": {
       "$id": "/properties/about_sub_title2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "What awaits you:"
+      ],
+      "minLength": 1
     },
     "about_sub_text2_1": {
       "$id": "/properties/about_sub_text2_1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "On July 4, the plenary session of the European Parliament will decide on a new copyright reform. This would radically change copyright throughout the EU: instead of strengthening authors as planned, it could burden them even more than ever. "
+      ],
+      "minLength": 1
     },
     "about_sub_text2_2": {
       "$id": "/properties/about_sub_text2_2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Especially Article 11 and Article 13 of the reform would entail tremendous restrictions, not only for the consumers. Even the creators themselves would suffer under these new regulations:"
+      ],
+      "minLength": 1
     },
     "about_sub_title3": {
       "$id": "/properties/about_sub_title3",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Ancillary Copyright"
+      ],
+      "minLength": 1
     },
     "about_sub_text3_1": {
       "$id": "/properties/about_sub_text3_1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Article 11 of the proposal of the European Commission is mainly focussing on the Ancillary Copyright of information providers. More specific press rights are going to protect the contents of these providers and will need a purchased license to be able to be used by others. Especially big news portals and aggregators pages are affected since cited texts could be seen as a copyright infringement under these new laws."
+      ],
+      "minLength": 1
     },
     "about_sub_text3_2": {
       "$id": "/properties/about_sub_text3_2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The problem is simple: A big portion of news providers on the internet are financed by page impressions and the resulting ad income, which is generated by users visiting their site via external links. If a platform is not willing or able to pay these licensing fees, they would lose those page views. The proposed law, originally supposed to support these providers, will now take away their means of existence."
+      ],
+      "minLength": 1
     },
     "about_sub_title4": {
       "$id": "/properties/about_sub_title4",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Upload-Filter"
+      ],
+      "minLength": 1
     },
     "about_sub_text4_1": {
       "$id": "/properties/about_sub_text4_1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Implementation of Article 13 results in a total real-time filtering of every piece of content that will be uploaded to the internet. What this means: Every data package will be automatically scanned by a potentially error-prone algorithm. This is comparable to the erroneous algorithm deployed by YouTube, which often mistakenly deletes content that is not protected by copyright law."
+      ],
+      "minLength": 1
     },
     "about_sub_text4_2": {
       "$id": "/properties/about_sub_text4_2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "If you think about the prospect of an algorithm that pre-analyses all the content that is uploaded to the internet, we take a further step towards the Orwellian dystopia of \"1984\". We are on the verge of a drastic reform that could change internet culture forever."
+      ],
+      "minLength": 1
     },
     "about_sub_title5": {
       "$id": "/properties/about_sub_title5",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Our demand to the EU:"
+      ],
+      "minLength": 1
     },
     "about_sub_text5_1": {
       "$id": "/properties/about_sub_text5_1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "We call on MEPs to vote against copyright reform in the digital internal market on 4 July 2018, Article 11 and 13 in particular."
+      ],
+      "minLength": 1
     },
     "about_sub_text5_2": {
       "$id": "/properties/about_sub_text5_2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Through your position in Parliament, you have a duty to represent the opinions and values of your country's citizens and to uphold their freedom."
+      ],
+      "minLength": 1
     },
     "about_sub_text5_strong": {
       "$id": "/properties/about_sub_text5_strong",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Join us, so we can stand together for a free internet"
+      ],
+      "minLength": 1
     },
     "mep_title": {
       "$id": "/properties/mep_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Contact your MEP"
+      ],
+      "minLength": 1
     },
     "mep_heading": {
       "$id": "/properties/mep_heading",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The <span style=\"color: #6bbbff !important;\">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?"
+      ],
+      "minLength": 1
     },
     "mep_text_1": {
       "$id": "/properties/mep_text_1",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "On 20 June, the European Parliament will vote on the Copyright Directive. <b>The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU.</b> Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens!"
+      ],
+      "minLength": 1
     },
     "mep_text_2": {
       "$id": "/properties/mep_text_2",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Give them the power to be Heroes!"
+      ],
+      "minLength": 1
     },
     "select_country": {
       "$id": "/properties/select_country",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Select country"
+      ],
+      "minLength": 1
     },
     "about_us_heading": {
       "$id": "/properties/about_us_heading",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "About us"
+      ],
+      "minLength": 1
     },
     "about_us_link": {
       "$id": "/properties/about_us_link",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "About us"
+      ],
+      "minLength": 1
     },
     "about_us_1_heading": {
       "$id": "/properties/about_us_1_heading",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Who are we?"
+      ],
+      "minLength": 1
     },
     "about_us_1_text": {
       "$id": "/properties/about_us_1_text",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Behind savetheinternet.info is a large and diverse group of people who all share the same goal: Saving the Internet. Our group has come together via the Internet, but our members live and work all over the German-speaking region. We are acting completely impartially and distance ourselves formally from all political orientations. As a free group of Internet activists, we are economically independent and are constantly expanding our reach. However, we pay very close attention to the anonymity and security of our members."
+      ],
+      "minLength": 1
     },
     "about_us_2_heading": {
       "$id": "/properties/about_us_2_heading",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "What have we achieved?"
+      ],
+      "minLength": 1
     },
     "about_us_2_text": {
       "$id": "/properties/about_us_2_text",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "A major information campaign and petition have persuaded many Members of the European Parliament to reject the copyright reform in the digital internal market', which had already been heavily criticised in the run-up. Our main points of criticism were the threat of censorship on social media sites and the charging for links to news sites, thus slowing down the free flow of information on the Internet."
+      ],
+      "minLength": 1
     },
     "about_us_3_heading": {
       "$id": "/properties/about_us_3_heading",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "How do we work?"
+      ],
+      "minLength": 1
     },
     "about_us_3_text": {
       "$id": "/properties/about_us_3_text",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Our group is organized through various websites and in constant contact with each other. Our people are active on the streets handing out flyers, making phone calls with politicians, journalists and influencers, organizing demos and information stands or taking care of the website, videos and advertising material. We pursue a purely factual policy and would like to inform people first and foremost about what changes to the law are planned and what effects they will have. It does not matter to us which Member of Parliament is proposing these amendments."
+      ],
+      "minLength": 1
     },
     "about_us_4_heading": {
       "$id": "/properties/about_us_4_heading",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Where do we perform?"
+      ],
+      "minLength": 1
     },
     "about_us_4_text": {
       "$id": "/properties/about_us_4_text",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Besides our website we are also active on Facebook, Twitter, Instagram and YouTube. In addition, our members are on the road to inform people with stands and flyers."
+      ],
+      "minLength": 1
     },
     "about_us_5_heading": {
       "$id": "/properties/about_us_5_heading",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "How are we financed?"
+      ],
+      "minLength": 1
     },
     "about_us_5_text": {
       "$id": "/properties/about_us_5_text",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Our campaigns are financed both by the self-financing of the initiators and by the private means of our activists. We were not on anyone's payroll and we reject this for the future. The work of our activists is purely honorary and takes place exclusively in their private free time in order to bring the contents of our campaigns closer to the population."
+      ],
+      "minLength": 1
     },
     "about_us_6_heading": {
       "$id": "/properties/about_us_6_heading",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        " How can you reach us?"
+      ],
+      "minLength": 1
     },
     "about_us_6_text": {
       "$id": "/properties/about_us_6_text",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The direct way is the imprint, the corresponding link is at the bottom of the page. Of course we can also be contacted via our other websites, you will find the corresponding links in the upper left corner of our website."
+      ],
+      "minLength": 1
     },
     "about_us_7_heading": {
       "$id": "/properties/about_us_7_heading",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "How can you support us?"
+      ],
+      "minLength": 1
     },
     "about_us_7_text": {
       "$id": "/properties/about_us_7_text",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "At present, we see no need for action and therefore do not need any support at present. But who knows what the future will bring. If you want to support us, check back here regularly. As soon as we need help again, something else will be written here ;)"
+      ],
+      "minLength": 1
     },
     "about_link": {
       "$id": "/properties/about_link",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Infos"
+      ],
+      "minLength": 1
     },
     "imprint_link": {
       "$id": "/properties/imprint_link",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Imprint"
+      ],
+      "minLength": 1
     },
     "privacy_link": {
       "$id": "/properties/privacy_link",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Privat policy"
+      ],
+      "minLength": 1
     },
     "footer_notice": {
       "$id": "/properties/footer_notice",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "We at savetheinternet.info distance ourselves from any illegal activities! We neither support illegal activities, nor do we commission them."
+      ],
+      "minLength": 1
     },
     "contact_your_mep_title": {
       "$id": "/properties/contact_your_mep_title",
-      "type": "string"
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Contact your MEP"
+      ],
+      "minLength": 1
     }
   }
 }
