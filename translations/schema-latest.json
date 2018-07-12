@@ -493,7 +493,7 @@
       "type": "string",
       "default": "",
       "examples": [
-        "The successful prevention of this reform could only be achieved through the work and hard work of every single member of our group and many other supporters. But not only the untiring commitment of our members but also the voice of each individual under our petition were decisive for this success. This victory is not only our victory but the victory of each individual, who has signed a sign against the censorship of the Internet. To illustrate this victory once again, you can find enough pictures of the petition in our gallery and hand it over to Parliament:"
+        "The successful prevention of this reform could only be achieved through the work and hard work of every single member of our group and many other supporters. But not only the untiring commitment of our members but also the voice of each individual under our petition were decisive for this success. This victory is not only our victory but the victory of each individual, who has signed a sign against the censorship of the Internet. To illustrate this victory once again, you can find enough pictures of the petition in our gallery and hand it over to Parliament: "
       ],
       "minLength": 1
     },
@@ -665,42 +665,6 @@
       "default": "",
       "examples": [
         "If you think about the prospect of an algorithm that pre-analyses all the content that is uploaded to the internet, we take a further step towards the Orwellian dystopia of \"1984\". We are on the verge of a drastic reform that could change internet culture forever."
-      ],
-      "minLength": 1
-    },
-    "about_sub_title5": {
-      "$id": "/properties/about_sub_title5",
-      "type": "string",
-      "default": "",
-      "examples": [
-        "Our demand to the EU:"
-      ],
-      "minLength": 1
-    },
-    "about_sub_text5_1": {
-      "$id": "/properties/about_sub_text5_1",
-      "type": "string",
-      "default": "",
-      "examples": [
-        "We call on MEPs to vote against copyright reform in the digital internal market on 4 July 2018, Article 11 and 13 in particular."
-      ],
-      "minLength": 1
-    },
-    "about_sub_text5_2": {
-      "$id": "/properties/about_sub_text5_2",
-      "type": "string",
-      "default": "",
-      "examples": [
-        "Through your position in Parliament, you have a duty to represent the opinions and values of your country's citizens and to uphold their freedom."
-      ],
-      "minLength": 1
-    },
-    "about_sub_text5_strong": {
-      "$id": "/properties/about_sub_text5_strong",
-      "type": "string",
-      "default": "",
-      "examples": [
-        "Join us, so we can stand together for a free internet"
       ],
       "minLength": 1
     },
